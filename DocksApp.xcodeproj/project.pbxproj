@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B304A12728F1F9AC00711999 /* NSManagedObjectContext+Utils copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304A12628F1F9AC00711999 /* NSManagedObjectContext+Utils copy.swift */; };
+		B304A12B28F1FB5E00711999 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304A12A28F1FB5E00711999 /* Window.swift */; };
+		B304A12F28F1FB9A00711999 /* SettingsView copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304A12E28F1FB9A00711999 /* SettingsView copy.swift */; };
 		B37777C028F1F52500D65AB5 /* DocksAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37777BF28F1F52500D65AB5 /* DocksAppApp.swift */; };
 		B37777C228F1F52500D65AB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37777C128F1F52500D65AB5 /* ContentView.swift */; };
 		B37777C428F1F52600D65AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37777C328F1F52600D65AB5 /* Assets.xcassets */; };
 		B37777C728F1F52600D65AB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37777C628F1F52600D65AB5 /* Preview Assets.xcassets */; };
 		B37777C928F1F52600D65AB5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37777C828F1F52600D65AB5 /* Persistence.swift */; };
 		B37777CC28F1F52600D65AB5 /* DocksApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B37777CA28F1F52600D65AB5 /* DocksApp.xcdatamodeld */; };
+		B37777D428F1F5DF00D65AB5 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37777D328F1F5DF00D65AB5 /* RootViewModel.swift */; };
+		B37777D728F1F66400D65AB5 /* PresetEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37777D528F1F66400D65AB5 /* PresetEntity+CoreDataClass.swift */; };
+		B37777D828F1F66400D65AB5 /* PresetEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37777D628F1F66400D65AB5 /* PresetEntity+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B304A12628F1F9AC00711999 /* NSManagedObjectContext+Utils copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Utils copy.swift"; sourceTree = "<group>"; };
+		B304A12A28F1FB5E00711999 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		B304A12E28F1FB9A00711999 /* SettingsView copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView copy.swift"; sourceTree = "<group>"; };
 		B37777BC28F1F52500D65AB5 /* DocksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37777BF28F1F52500D65AB5 /* DocksAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocksAppApp.swift; sourceTree = "<group>"; };
 		B37777C128F1F52500D65AB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +33,9 @@
 		B37777C828F1F52600D65AB5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B37777CB28F1F52600D65AB5 /* DocksApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DocksApp.xcdatamodel; sourceTree = "<group>"; };
 		B37777CD28F1F52600D65AB5 /* DocksApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocksApp.entitlements; sourceTree = "<group>"; };
+		B37777D328F1F5DF00D65AB5 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		B37777D528F1F66400D65AB5 /* PresetEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PresetEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B37777D628F1F66400D65AB5 /* PresetEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PresetEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +68,17 @@
 		B37777BE28F1F52500D65AB5 /* DocksApp */ = {
 			isa = PBXGroup;
 			children = (
-				B37777BF28F1F52500D65AB5 /* DocksAppApp.swift */,
-				B37777C128F1F52500D65AB5 /* ContentView.swift */,
-				B37777C328F1F52600D65AB5 /* Assets.xcassets */,
-				B37777C828F1F52600D65AB5 /* Persistence.swift */,
+				B304A12E28F1FB9A00711999 /* SettingsView copy.swift */,
 				B37777CD28F1F52600D65AB5 /* DocksApp.entitlements */,
+				B37777C128F1F52500D65AB5 /* ContentView.swift */,
+				B37777BF28F1F52500D65AB5 /* DocksAppApp.swift */,
+				B304A12628F1F9AC00711999 /* NSManagedObjectContext+Utils copy.swift */,
+				B37777C828F1F52600D65AB5 /* Persistence.swift */,
+				B37777D328F1F5DF00D65AB5 /* RootViewModel.swift */,
+				B304A12A28F1FB5E00711999 /* Window.swift */,
+				B37777C328F1F52600D65AB5 /* Assets.xcassets */,
 				B37777CA28F1F52600D65AB5 /* DocksApp.xcdatamodeld */,
+				B37777D928F1F66A00D65AB5 /* PresetEntity */,
 				B37777C528F1F52600D65AB5 /* Preview Content */,
 			);
 			path = DocksApp;
@@ -73,6 +90,15 @@
 				B37777C628F1F52600D65AB5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B37777D928F1F66A00D65AB5 /* PresetEntity */ = {
+			isa = PBXGroup;
+			children = (
+				B37777D528F1F66400D65AB5 /* PresetEntity+CoreDataClass.swift */,
+				B37777D628F1F66400D65AB5 /* PresetEntity+CoreDataProperties.swift */,
+			);
+			path = PresetEntity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +145,9 @@
 				Base,
 			);
 			mainGroup = B37777B328F1F52500D65AB5;
+			packageReferences = (
+				B304A13028F1FF3F00711999 /* XCRemoteSwiftPackageReference "PermissionsKit" */,
+			);
 			productRefGroup = B37777BD28F1F52500D65AB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,7 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37777D728F1F66400D65AB5 /* PresetEntity+CoreDataClass.swift in Sources */,
+				B304A12B28F1FB5E00711999 /* Window.swift in Sources */,
+				B37777D428F1F5DF00D65AB5 /* RootViewModel.swift in Sources */,
+				B304A12F28F1FB9A00711999 /* SettingsView copy.swift in Sources */,
 				B37777C928F1F52600D65AB5 /* Persistence.swift in Sources */,
+				B37777D828F1F66400D65AB5 /* PresetEntity+CoreDataProperties.swift in Sources */,
+				B304A12728F1F9AC00711999 /* NSManagedObjectContext+Utils copy.swift in Sources */,
 				B37777C228F1F52500D65AB5 /* ContentView.swift in Sources */,
 				B37777CC28F1F52600D65AB5 /* DocksApp.xcdatamodeld in Sources */,
 				B37777C028F1F52500D65AB5 /* DocksAppApp.swift in Sources */,
@@ -344,6 +379,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B304A13028F1FF3F00711999 /* XCRemoteSwiftPackageReference "PermissionsKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/PermissionsKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
 		B37777CA28F1F52600D65AB5 /* DocksApp.xcdatamodeld */ = {
